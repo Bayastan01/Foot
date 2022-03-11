@@ -1,0 +1,25 @@
+.block21 {
+    background-color:black;
+    width: 100%;
+    max-height: 20000px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding: 0px;
+}
+.block22{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-height: 20000px;
+    background-color:rgb(206, 192, 192);
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-attachment: fixed;
+    padding: 20px 10px;
+}
+
+
+
