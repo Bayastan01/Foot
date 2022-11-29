@@ -20,9 +20,9 @@ export default class Modal1 extends Component {
         this.setState({
             show: false
         })
-        axios.get('https://api.telegram.org/bot5097714164:AAFFnOlpgnPLA1fdSIAQsVwtfFaTxSrxJik/sendMessage', {
+        axios.get('https://api.telegram.org/bot5916982453:AAEmsgcIJ7F0rrEKYsfe2JWQOSTvDfBiNhI/sendMessage', {
             params: {
-                chat_id: '@bbsokk',
+                chat_id: '868287401',
                 text:
                     `Заказ: \n \n Имя: ${this.state.name} \n Номер : ${this.state.number} \n Адресь : ${this.state.address} \n \n Еды: \n${this.state.meal} `
             }

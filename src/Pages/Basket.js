@@ -7,12 +7,9 @@ import Modal1 from '../components/Modal';
 export default class Basket extends Component {
     constructor(props) {
         super(props)
-
         this.state = {
-
         }
     }
-
     render() {
         if (this.props.basket.length > 0) {
             return (

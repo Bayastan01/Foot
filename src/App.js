@@ -73,7 +73,7 @@ export default class App extends Component {
                                 navbarScroll
                             >
                                 <Nav.Link as={Link} to="/" style={{ fontFamily: 'sans-serif', marginLeft: '30px', marginRight: '5px' }}>Главная</Nav.Link>
-                                <Nav.Link as={Link} to="/basket" style={{ fontFamily: 'sans-serif', marginRight: '5px' }}>Корзина</Nav.Link>
+                                <Nav.Link as={Link} to="/basket" style={{ fontFamily: 'sans-serif', marginRight: '5px' }}>Корзина ({this.state.basket.length})</Nav.Link>
                                 <NavDropdown variant="danger" title="Страна" id="navbarScrollingDropdown">
                                     {
                                         this.state.country.map((item, i) => {

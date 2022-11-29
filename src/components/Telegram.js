@@ -15,9 +15,9 @@ export default class Telegram extends Component {
         if (this.state.inputText === '') {
             alert ('noo')
         } else {
-            axios.get('https://api.telegram.org/bot5097714164:AAFFnOlpgnPLA1fdSIAQsVwtfFaTxSrxJik/sendMessage', {
+            axios.get('https://api.telegram.org/bot5916982453:AAEmsgcIJ7F0rrEKYsfe2JWQOSTvDfBiNhI/sendMessage', {
                 params: {
-                    chat_id: '@bbsokk',
+                    chat_id: '868287401',
                     text: this.state.inputText
                 }
             })
